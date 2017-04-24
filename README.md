@@ -18,7 +18,7 @@ var onXhr = require('on-xmlhttprequest');
 
 onXhr(function (request) {
   console.log(request.method, request.url);
-  console.log(request.xhr) // just the original XMLHttpRequest
+  console.log(request.xhr); // just the original XMLHttpRequest
 
   request.on('open', function () {
     console.log('open');
