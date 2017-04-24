@@ -1,6 +1,6 @@
 {
   "name": "on-xmlhttprequest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monkey patch for `window.XMLHttpRequest` events",
   "main": "index.js",
   "repository": {
